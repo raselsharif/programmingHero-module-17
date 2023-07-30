@@ -14,11 +14,11 @@ if (num1 > num2) {
 
 var line1 = 10;
 var line2 = 9;
-var line3 = 9;
+var line3 = 10;
 
-if ((line1 == line2 && line2 == line3) || (line3 == line1 && line2 == line3 || line2==line3 && line3==line1)) {
+if (line1===line2 || line1 ===line3  || line2===line3){
     console.log("this is Isosceles");
-} else {
+}else{
     console.log("this is not Isosceles");
-
 }
+
